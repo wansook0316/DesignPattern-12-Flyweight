@@ -7,5 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+internal func main() {
+    print("Hello, World!")
+}
 
+main()
