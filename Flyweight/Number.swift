@@ -14,13 +14,6 @@ internal class Number {
 
         let factory = DigitFactory()
 
-//        (0..<string.count).forEach { offset in
-//            let index = string.index(string.startIndex, offsetBy: offset)
-//            let char = String(string[index])
-//
-//            self.digitList.append(factory.digit(of: Int(char)))
-//        }
-
         (0..<string.count)
             .map { (offset: Int) -> String in
                 let index = string.index(string.startIndex, offsetBy: offset)
