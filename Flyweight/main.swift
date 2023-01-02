@@ -8,7 +8,8 @@
 import Foundation
 
 internal func main() {
-    print("Hello, World!")
+    let number = Number(integer: 434331)
+    number.print()
 }
 
 main()
